@@ -42,13 +42,13 @@ class ViewController: UIViewController {
         // if the game state has been calculated to a lose state
         // display a lose message in the status label
         } else if gameState == .Lose {
-            Status.text = "Bro I murked you fam"
+            Status.text = "You lost. Wanna play again?"
         // if the game state has been calculated to a win state
         // display a win message in the status label
         } else if gameState == .Win {
-            Status.text = "Jheeze you beat me fam"
+            Status.text = "You win!"
         } else {
-            Status.text = "We picked the same one fam"
+            Status.text = "There is a tie. Lets play again."
         }
         
     }
